@@ -128,7 +128,6 @@ export function useButtonStyles(styles: ButtonVariantProps) {
       intent,
       size
     });
-    console.log(variants);
     return css(variants);
   }, [intent, size]);
 
@@ -168,8 +167,6 @@ const button = vs({
         styles["border-transparent"],
         styles["hover:bg-blue-600"]
       ],
-      // **or**
-      // primary: "bg-blue-500 text-white border-transparent hover:bg-blue-600",
       secondary: [
         styles["bg-white"],
         styles["text-gray-800"],
