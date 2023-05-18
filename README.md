@@ -231,9 +231,7 @@ const button = vs({
         "border-transparent",
         "hover:bg-blue-600"
       ],
-      // **or**
-      // primary: "bg-blue-500 text-white border-transparent hover:bg-blue-600",
-      secondary: [
+    secondary: [
         "bg-white",
         "text-gray-800",
         "border-gray-400",
