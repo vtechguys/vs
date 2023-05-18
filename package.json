@@ -1,5 +1,5 @@
 {
-  "name": "vs",
+  "name": "@vtechguys/vs",
   "version": "0.0.1",
   "description": "A first-class variant API. ",
   "main": "index.js",
@@ -7,6 +7,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Aniket Jha",
+  "license": "ISC",
+  "keywords": [
+    "classes",
+    "variants",
+    "styles"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtechguys/vs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vtechguys/vs/issues"
+  },
+  "homepage": "https://github.com/vtechguys/vs#readme"
 }
