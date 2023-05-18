@@ -1,6 +1,6 @@
 {
   "name": "@vtechguys/vs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A first-class variant API. ",
   "main": "index.js",
   "types": "index.d.ts",
