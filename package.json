@@ -1,0 +1,12 @@
+{
+  "name": "vs",
+  "version": "0.0.1",
+  "description": "A first-class variant API. ",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
