@@ -1,5 +1,6 @@
 # @vtechguys/vs
-A first-class variant API.
+
+> A first-class variant API.
 
 `@vtechguys/vs` provide a easy to use  variant API to be used in making your component. It provides a sweet API to help you build components for design-system. 
 
