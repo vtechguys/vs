@@ -1,6 +1,5 @@
 export function vs(config) {
-    return function (props) {
-        var _a;
+    return function variantGen(props) {
         const variantStyles = [];
         if (typeof config.extend === 'function') {
             const extended = config.extend(props);
@@ -11,7 +10,7 @@ export function vs(config) {
         }
         if (config.variants) {
             for (const variantKey in config.variants) {
-                const variantValue = props[variantKey] || ((_a = config.defaultVariants) === null || _a === void 0 ? void 0 : _a[variantKey]);
+                const variantValue = props[variantKey] || config.defaultVariants?.[variantKey];
                 const variantKindTypes = config.variants[variantKey];
                 const styles = variantKindTypes[variantValue];
                 if (variantValue && styles) {
