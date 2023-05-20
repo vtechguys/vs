@@ -4,6 +4,7 @@
   "description": "A first-class variant API. ",
   "main": "index.js",
   "types": "index.d.ts",
+  "homepage": "https://variant-styles.vercel.app/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +21,5 @@
   },
   "bugs": {
     "url": "https://github.com/vtechguys/vs/issues"
-  },
-  "homepage": "https://github.com/vtechguys/vs#readme"
+  }
 }
